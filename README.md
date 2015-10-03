@@ -1,6 +1,6 @@
 ## XMPullToRefresh
 #### swift版的下拉刷新框架
-##### 运行环境：Xcode 7.0+  swift 2.0  iOS 7.0以上
+##### 运行环境：Xcode 7.0+  swift 2.0  iOS 9.0以上
 
 
 ![](https://github.com/lyimin/XMPullToRefresh/blob/master/XMPullToRefreshDemo/XMPullToRefresh.gif)
