@@ -13,12 +13,12 @@ self.tableView.headerViewPullToRefresh ({ () -> Void in
 })
 </code></pre>
 
-#### 1.进入上拉刷新状态
+#### 1.进入下拉刷新状态
 <pre><code>
 self.tableView.headerViewBeginRefreshing()
 </code></pre>
 
-#### 2.结束上拉刷新状态
+#### 2.结束下拉刷新状态
 <pre><code>
 self.tableView.headerViewStopPullToRefresh()
 </code></pre>
