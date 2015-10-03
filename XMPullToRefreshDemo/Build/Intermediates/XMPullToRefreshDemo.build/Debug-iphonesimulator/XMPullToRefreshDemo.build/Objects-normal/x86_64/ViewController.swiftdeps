@@ -8,21 +8,21 @@ provides-member:
 provides-dynamic-lookup:
 - "tableView"
 - "tableView"
+- "loadMore"
 - "count"
 - "getData"
-- "loadMore"
 - "viewDidLoad"
 depends-top-level:
-- !private "Void"
-- "UITableView"
-- "NSIndexPath"
-- !private "StringLiteralType"
-- !private "UITableViewCellStyle"
-- "UITableViewController"
-- "ViewController"
 - !private "+="
+- "UITableViewController"
+- "NSIndexPath"
 - "UITableViewCell"
+- !private "UITableViewCellStyle"
+- "ViewController"
+- "UITableView"
 - "Int"
+- !private "Void"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "UITableViewCell"]
 - !private ["PSs9AnyObject", "UITableViewCellStyle"]

@@ -10,12 +10,12 @@
 		F190C4B21BBFB28200A9DF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4B11BBFB28200A9DF34 /* AppDelegate.swift */; };
 		F190C4B41BBFB28200A9DF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4B31BBFB28200A9DF34 /* ViewController.swift */; };
 		F190C4B91BBFB28200A9DF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F190C4B81BBFB28200A9DF34 /* Assets.xcassets */; };
-		F190C4C51BBFB3E200A9DF34 /* XMRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4C41BBFB3E200A9DF34 /* XMRefreshConst.swift */; settings = {ASSET_TAGS = (); }; };
-		F190C4C71BBFB49F00A9DF34 /* pull_to_refresh_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F190C4C61BBFB49F00A9DF34 /* pull_to_refresh_icon.png */; settings = {ASSET_TAGS = (); }; };
-		F190C4C91BBFB4D000A9DF34 /* XMRefreshBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4C81BBFB4D000A9DF34 /* XMRefreshBase.swift */; settings = {ASSET_TAGS = (); }; };
-		F190C4CB1BBFC10B00A9DF34 /* XMRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4CA1BBFC10B00A9DF34 /* XMRefreshHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
-		F190C4CD1BBFC79400A9DF34 /* UIScrollView+XM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4CC1BBFC79400A9DF34 /* UIScrollView+XM.swift */; settings = {ASSET_TAGS = (); }; };
-		F190C4DC1BBFE61300A9DF34 /* XMRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4DB1BBFE61300A9DF34 /* XMRefreshFooterView.swift */; settings = {ASSET_TAGS = (); }; };
+		F190C4E51BC0380400A9DF34 /* pull_to_refresh_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F190C4DF1BC0380400A9DF34 /* pull_to_refresh_icon.png */; settings = {ASSET_TAGS = (); }; };
+		F190C4E61BC0380400A9DF34 /* UIScrollView+XM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4E01BC0380400A9DF34 /* UIScrollView+XM.swift */; settings = {ASSET_TAGS = (); }; };
+		F190C4E71BC0380400A9DF34 /* XMRefreshBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4E11BC0380400A9DF34 /* XMRefreshBase.swift */; settings = {ASSET_TAGS = (); }; };
+		F190C4E81BC0380400A9DF34 /* XMRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4E21BC0380400A9DF34 /* XMRefreshConst.swift */; settings = {ASSET_TAGS = (); }; };
+		F190C4E91BC0380400A9DF34 /* XMRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4E31BC0380400A9DF34 /* XMRefreshFooterView.swift */; settings = {ASSET_TAGS = (); }; };
+		F190C4EA1BC0380400A9DF34 /* XMRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190C4E41BC0380400A9DF34 /* XMRefreshHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		F190C4B31BBFB28200A9DF34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F190C4B81BBFB28200A9DF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F190C4BD1BBFB28200A9DF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F190C4C41BBFB3E200A9DF34 /* XMRefreshConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshConst.swift; sourceTree = "<group>"; };
-		F190C4C61BBFB49F00A9DF34 /* pull_to_refresh_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_to_refresh_icon.png; sourceTree = "<group>"; };
-		F190C4C81BBFB4D000A9DF34 /* XMRefreshBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshBase.swift; sourceTree = "<group>"; };
-		F190C4CA1BBFC10B00A9DF34 /* XMRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshHeaderView.swift; sourceTree = "<group>"; };
-		F190C4CC1BBFC79400A9DF34 /* UIScrollView+XM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+XM.swift"; sourceTree = "<group>"; };
-		F190C4DB1BBFE61300A9DF34 /* XMRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshFooterView.swift; sourceTree = "<group>"; };
+		F190C4DF1BC0380400A9DF34 /* pull_to_refresh_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_to_refresh_icon.png; sourceTree = "<group>"; };
+		F190C4E01BC0380400A9DF34 /* UIScrollView+XM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+XM.swift"; sourceTree = "<group>"; };
+		F190C4E11BC0380400A9DF34 /* XMRefreshBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshBase.swift; sourceTree = "<group>"; };
+		F190C4E21BC0380400A9DF34 /* XMRefreshConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshConst.swift; sourceTree = "<group>"; };
+		F190C4E31BC0380400A9DF34 /* XMRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshFooterView.swift; sourceTree = "<group>"; };
+		F190C4E41BC0380400A9DF34 /* XMRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMRefreshHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +46,7 @@
 		F190C4A51BBFB28200A9DF34 = {
 			isa = PBXGroup;
 			children = (
+				F190C4DE1BC0380400A9DF34 /* XMRefresh */,
 				F190C4B01BBFB28200A9DF34 /* XMPullToRefreshDemo */,
 				F190C4AF1BBFB28200A9DF34 /* Products */,
 			);
@@ -62,7 +63,6 @@
 		F190C4B01BBFB28200A9DF34 /* XMPullToRefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F190C4C31BBFB2AC00A9DF34 /* XMRefresh */,
 				F190C4B11BBFB28200A9DF34 /* AppDelegate.swift */,
 				F190C4B31BBFB28200A9DF34 /* ViewController.swift */,
 				F190C4B81BBFB28200A9DF34 /* Assets.xcassets */,
@@ -71,15 +71,15 @@
 			path = XMPullToRefreshDemo;
 			sourceTree = "<group>";
 		};
-		F190C4C31BBFB2AC00A9DF34 /* XMRefresh */ = {
+		F190C4DE1BC0380400A9DF34 /* XMRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				F190C4C61BBFB49F00A9DF34 /* pull_to_refresh_icon.png */,
-				F190C4C41BBFB3E200A9DF34 /* XMRefreshConst.swift */,
-				F190C4C81BBFB4D000A9DF34 /* XMRefreshBase.swift */,
-				F190C4CA1BBFC10B00A9DF34 /* XMRefreshHeaderView.swift */,
-				F190C4DB1BBFE61300A9DF34 /* XMRefreshFooterView.swift */,
-				F190C4CC1BBFC79400A9DF34 /* UIScrollView+XM.swift */,
+				F190C4DF1BC0380400A9DF34 /* pull_to_refresh_icon.png */,
+				F190C4E01BC0380400A9DF34 /* UIScrollView+XM.swift */,
+				F190C4E11BC0380400A9DF34 /* XMRefreshBase.swift */,
+				F190C4E21BC0380400A9DF34 /* XMRefreshConst.swift */,
+				F190C4E31BC0380400A9DF34 /* XMRefreshFooterView.swift */,
+				F190C4E41BC0380400A9DF34 /* XMRefreshHeaderView.swift */,
 			);
 			path = XMRefresh;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F190C4C71BBFB49F00A9DF34 /* pull_to_refresh_icon.png in Resources */,
+				F190C4E51BC0380400A9DF34 /* pull_to_refresh_icon.png in Resources */,
 				F190C4B91BBFB28200A9DF34 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,13 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F190C4CD1BBFC79400A9DF34 /* UIScrollView+XM.swift in Sources */,
-				F190C4CB1BBFC10B00A9DF34 /* XMRefreshHeaderView.swift in Sources */,
+				F190C4E91BC0380400A9DF34 /* XMRefreshFooterView.swift in Sources */,
+				F190C4EA1BC0380400A9DF34 /* XMRefreshHeaderView.swift in Sources */,
+				F190C4E61BC0380400A9DF34 /* UIScrollView+XM.swift in Sources */,
+				F190C4E81BC0380400A9DF34 /* XMRefreshConst.swift in Sources */,
+				F190C4E71BC0380400A9DF34 /* XMRefreshBase.swift in Sources */,
 				F190C4B41BBFB28200A9DF34 /* ViewController.swift in Sources */,
-				F190C4DC1BBFE61300A9DF34 /* XMRefreshFooterView.swift in Sources */,
-				F190C4C91BBFB4D000A9DF34 /* XMRefreshBase.swift in Sources */,
 				F190C4B21BBFB28200A9DF34 /* AppDelegate.swift in Sources */,
-				F190C4C51BBFB3E200A9DF34 /* XMRefreshConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

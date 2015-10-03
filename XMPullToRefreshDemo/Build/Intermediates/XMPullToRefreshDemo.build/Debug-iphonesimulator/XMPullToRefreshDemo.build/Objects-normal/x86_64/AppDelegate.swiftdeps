@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C19XMPullToRefreshDemo11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
 - "applicationWillTerminate"
 - "applicationWillResignActive"
 - "window"
+- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 - "application"
-- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "UIWindow"
-- "NSObject"
-- !private "UIScreen"
-- !private "ViewController"
 - "Bool"
-- "AppDelegate"
-- "UIResponder"
 - !private "BooleanLiteralType"
+- "AppDelegate"
+- "UIWindow"
+- !private "UIScreen"
+- "AnyObject"
+- !private "ViewController"
+- "NSObject"
 - "UIApplicationDelegate"
 - "UIApplication"
-- "AnyObject"
+- "UIResponder"
 depends-member:
 - !private ["PSs9AnyObject", "UIScreen"]
 - !private ["PSs9AnyObject", "UIWindow"]

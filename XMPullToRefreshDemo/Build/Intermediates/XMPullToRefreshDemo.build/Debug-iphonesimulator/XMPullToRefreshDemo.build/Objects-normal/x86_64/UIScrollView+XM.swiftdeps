@@ -11,16 +11,16 @@ provides-member:
 - ["CSo12UIScrollView", "footerEndRefreshing"]
 provides-dynamic-lookup:
 - "headerViewStopPullToRefresh"
+- "headerViewPullToRefresh"
 - "footerViewPullToRefresh"
-- "headerViewBeginRefreshing"
 - "footerEndRefreshing"
 - "footerBeginRefreshing"
-- "headerViewPullToRefresh"
+- "headerViewBeginRefreshing"
 depends-top-level:
 - "UIScrollView"
+- "Void"
 - !private "XMRefreshHeaderView"
 - !private "XMRefreshFooterView"
-- "Void"
 - !private "AnyObject"
 depends-member:
 - !private ["PSs9AnyObject", "State"]
@@ -487,8 +487,8 @@ depends-nominal:
 - !private "PSs18_SignedIntegerType"
 - !private "PSs11_Strideable"
 depends-dynamic-lookup:
-- !private "beginRefreshing"
 - !private "endRefreshing"
+- !private "beginRefreshing"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
