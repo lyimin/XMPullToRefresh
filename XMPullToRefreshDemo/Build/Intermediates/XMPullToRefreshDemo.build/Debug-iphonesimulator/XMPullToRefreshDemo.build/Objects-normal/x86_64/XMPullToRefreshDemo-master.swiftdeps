@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "0170f4a8f4329caaa69fd1634f852979"
+build_time: [497200222, 616818000]
+inputs: 
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/XMRefresh/XMRefreshFooterView.swift": [497199899, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/XMRefresh/UIScrollView+XM.swift": [497199899, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/XMRefresh/XMRefreshConst.swift": [497199899, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/XMRefresh/XMRefreshBase.swift": [497200218, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/ViewController.swift": [497199899, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/XMRefresh/XMRefreshHeaderView.swift": [497199899, 0]
+	"/Users/yiming/Documents/IOS/swiftDemo/swift\u7B2C\u4E09\u65B9\u6846\u67B6/XMPullToRefresh/XMPullToRefreshDemo/XMPullToRefreshDemo/AppDelegate.swift": [497199899, 0]
