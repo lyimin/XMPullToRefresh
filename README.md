@@ -1,8 +1,7 @@
 ## XMPullToRefresh
 #### swift版的下拉刷新框架
 
-![Alt text][id]
-[id]: url/to/image  "Optional title attribute"
+![](https://github.com/lyimin/XMPullToRefresh/blob/master/XMPullToRefreshDemo/XMPullToRefresh.gif)
 
 ## 用法
 ### 一.下拉刷新
