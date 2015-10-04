@@ -6,6 +6,15 @@
 ![](https://github.com/lyimin/XMPullToRefresh/blob/master/XMPullToRefreshDemo/XMPullToRefresh.gif)
 
 ## 用法
+### cocoaPods管理
+<pre><code>
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'XMPullToRefresh'
+</code></pre>
+
 ### 一.下拉刷新
 <pre><code>
 self.tableView.headerViewPullToRefresh ({ () -> Void in
