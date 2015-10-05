@@ -35,7 +35,7 @@ self.tableView.headerViewStopPullToRefresh()
 #### 3.移除下拉刷新控件
 <pre><code>
 self.tableView.removeHeaderView()
-</code><pre>
+</code></pre>
 
 ### 二.上拉加载更多
 <pre><code>
@@ -57,4 +57,4 @@ self.tableView.footerEndRefreshing()
 #### 3.移除上拉加载更多控件
 <pre><code>
 self.tableView.removeFooterView()
-</code><pre>
+</code></pre>
