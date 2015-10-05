@@ -96,7 +96,7 @@ extension UIScrollView {
     /**
     移除脚步
     */
-    func removeFooter()
+    func removeFooterView()
     {
         for view : AnyObject in self.subviews{
             if view is XMRefreshFooterView{
