@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name          = "XMPullToRefresh"
-s.version       = "1.0.0"
+s.version       = "1.0.1"
 s.summary       = "The easiest way to use pull-to-refresh."
 s.homepage      = "https://github.com/lyimin/XMPullToRefresh"
 s.license       = { :type => "MIT", :file => "LICENSE" }
