@@ -46,6 +46,18 @@ extension UIScrollView {
         }
     }
     
+    /**
+    移除下拉刷新
+    */
+    func removeHeaderView() {
+        for view : AnyObject in self.subviews{
+            if view is XMRefreshHeaderView{
+                view.removeFromSuperview()
+            }
+        }
+    }
+    
+    
     
     /**
     上拉加载更多
@@ -77,6 +89,18 @@ extension UIScrollView {
         for object : AnyObject in self.subviews{
             if object is XMRefreshFooterView{
                 object.endRefreshing()
+            }
+        }
+    }
+    
+    /**
+    移除脚步
+    */
+    func removeFooter()
+    {
+        for view : AnyObject in self.subviews{
+            if view is XMRefreshFooterView{
+                view.removeFromSuperview()
             }
         }
     }

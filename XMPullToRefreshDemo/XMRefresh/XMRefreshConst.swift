@@ -19,7 +19,7 @@ let XMRefreshSlowAnimationDuration:NSTimeInterval = 0.3
 
 let XMRefreshFooterPullToRefresh:String = "上拉加载更多"
 let XMRefreshFooterReleaseToRefresh:String =  "释放加载更多"
-let XMRefreshFooterRefreshing:String =  "正在加载..."
+let XMRefreshFooterRefreshing:String =  "正在加载更多..."
 
 let XMRefreshHeaderPullToRefresh:String =  "下拉刷新"
 let XMRefreshHeaderReleaseToRefresh:String =  "释放刷新"

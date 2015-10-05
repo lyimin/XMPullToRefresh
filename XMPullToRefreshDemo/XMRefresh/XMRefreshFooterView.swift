@@ -51,7 +51,7 @@ class XMRefreshFooterView: XMRefreshBase {
             
                 // 正在加载更多
                 case .RefreshStateRefreshing:
-                    self.statusLabel.text = XMRefreshFooterReleaseToRefresh as String;
+                    self.statusLabel.text = XMRefreshFooterRefreshing as String;
                     self.lastRefreshCount = self.totalDataCountInScrollView();
                     UIView.animateWithDuration(XMRefreshSlowAnimationDuration, animations: {
                         var bottom : CGFloat = self.frame.size.height + self.scrollViewOriginalInset.bottom
