@@ -10,60 +10,59 @@ provides-member:
 - ["OC19XMPullToRefreshDemo13XMRefreshBase14XMRefreshState", ""]
 - ["OC19XMPullToRefreshDemo13XMRefreshBase17XMRefreshViewType", ""]
 provides-dynamic-lookup:
-- "endRefreshing"
+- "statusLabel"
+- "willMoveToSuperview"
 - "layoutSubviews"
+- "isRefreshing"
+- "endRefreshing"
+- "beginRefreshing"
 - "scrollView"
 - "arrowImage"
-- "drawRect"
 - "activityView"
-- "statusLabel"
+- "drawRect"
 - "beginRefreshingCallback"
-- "willMoveToSuperview"
-- "isRefreshing"
-- "beginRefreshing"
 depends-top-level:
-- !private "String"
-- "UIActivityIndicatorView"
-- !private "XMRefreshLabelTextSize"
-- "UIView"
 - "NSCoder"
-- !private "NSEC_PER_SEC"
-- !private "CGPointMake"
-- !private "dispatch_after"
-- !private "SCREEN_WIDTH"
-- "UIImageView"
-- !private "UIColor"
-- !private "StringLiteralType"
-- "UIScrollView"
-- "=="
 - "Bool"
-- "UILabel"
-- !private "UIImage"
-- !private "UIViewAutoresizing"
-- !private "fatalError"
-- "CGRect"
-- !private "!="
-- "Void"
 - "XMRefreshBase"
-- !private "DISPATCH_TIME_NOW"
-- !private "XMRefreshContentOffset"
 - "UIEdgeInsets"
-- !private "BooleanLiteralType"
-- !private "Array"
-- !private "NSKeyValueObservingOptions"
-- !private "dispatch_get_main_queue"
-- !private "XMRefreshLabelTextColor"
-- !private "dispatch_time"
-- !private "CGRectMake"
-- !private "NSTextAlignment"
-- !private "dispatch_time_t"
-- !private "Double"
-- !private "*"
-- !private "XMRefreshContentSize"
-- !private "Int64"
-- !private "UIActivityIndicatorViewStyle"
-- !private "/"
+- !private "StringLiteralType"
 - !private "XMTimer"
+- !private "!="
+- !private "fatalError"
+- !private "NSTextAlignment"
+- !private "NSKeyValueObservingOptions"
+- !private "UIViewAutoresizing"
+- "UIScrollView"
+- !private "dispatch_after"
+- !private "UIColor"
+- !private "UIActivityIndicatorViewStyle"
+- !private "String"
+- !private "Array"
+- !private "XMRefreshLabelTextSize"
+- !private "CGPointMake"
+- !private "/"
+- !private "Int64"
+- "UIActivityIndicatorView"
+- !private "dispatch_time_t"
+- !private "CGRectMake"
+- !private "DISPATCH_TIME_NOW"
+- "=="
+- !private "dispatch_time"
+- !private "BooleanLiteralType"
+- !private "dispatch_get_main_queue"
+- !private "SCREEN_WIDTH"
+- "UIView"
+- "CGRect"
+- !private "NSEC_PER_SEC"
+- !private "Double"
+- "Void"
+- "UILabel"
+- "UIImageView"
+- !private "*"
+- !private "XMRefreshContentOffset"
+- !private "UIImage"
+- !private "XMRefreshLabelTextColor"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGPointMake"]
@@ -84,7 +83,6 @@ depends-member:
 - !private ["PSs9AnyObject", "UILabel"]
 - !private ["PSs9AnyObject", "UIViewAutoresizing"]
 - !private ["PSs9AnyObject", "XMRefreshContentOffset"]
-- !private ["PSs9AnyObject", "XMRefreshContentSize"]
 - !private ["PSs9AnyObject", "XMRefreshLabelTextColor"]
 - !private ["PSs9AnyObject", "XMRefreshLabelTextSize"]
 - ["PSs9AnyObject", "XMRefreshState"]
@@ -167,7 +165,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "UILabel"]
 - !private ["PSs11CVarArgType", "UIViewAutoresizing"]
 - !private ["PSs11CVarArgType", "XMRefreshContentOffset"]
-- !private ["PSs11CVarArgType", "XMRefreshContentSize"]
 - !private ["PSs11CVarArgType", "XMRefreshLabelTextColor"]
 - !private ["PSs11CVarArgType", "XMRefreshLabelTextSize"]
 - ["PSs11CVarArgType", "XMRefreshState"]
@@ -236,7 +233,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "UILabel"]
 - !private ["PSs23CustomStringConvertible", "UIViewAutoresizing"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshContentOffset"]
-- !private ["PSs23CustomStringConvertible", "XMRefreshContentSize"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshLabelTextColor"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshLabelTextSize"]
 - ["PSs23CustomStringConvertible", "XMRefreshState"]
@@ -315,7 +311,6 @@ depends-member:
 - !private ["PSs9Equatable", "UIViewAutoresizing"]
 - !private ["PSs9Equatable", "WillRefreshing"]
 - !private ["PSs9Equatable", "XMRefreshContentOffset"]
-- !private ["PSs9Equatable", "XMRefreshContentSize"]
 - !private ["PSs9Equatable", "XMRefreshLabelTextColor"]
 - !private ["PSs9Equatable", "XMRefreshLabelTextSize"]
 - ["PSs9Equatable", "XMRefreshState"]
@@ -397,7 +392,6 @@ depends-member:
 - !private ["PSs8Hashable", "UIViewAutoresizing"]
 - !private ["PSs8Hashable", "WillRefreshing"]
 - !private ["PSs8Hashable", "XMRefreshContentOffset"]
-- !private ["PSs8Hashable", "XMRefreshContentSize"]
 - !private ["PSs8Hashable", "XMRefreshLabelTextColor"]
 - !private ["PSs8Hashable", "XMRefreshLabelTextSize"]
 - ["PSs8Hashable", "XMRefreshState"]
@@ -475,7 +469,6 @@ depends-member:
 - !private ["PSo8NSCoding", "UILabel"]
 - !private ["PSo8NSCoding", "UIViewAutoresizing"]
 - !private ["PSo8NSCoding", "XMRefreshContentOffset"]
-- !private ["PSo8NSCoding", "XMRefreshContentSize"]
 - !private ["PSo8NSCoding", "XMRefreshLabelTextColor"]
 - !private ["PSo8NSCoding", "XMRefreshLabelTextSize"]
 - ["PSo8NSCoding", "XMRefreshState"]
@@ -551,7 +544,6 @@ depends-member:
 - !private ["CSo8NSObject", "UIViewAutoresizing"]
 - ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "XMRefreshContentOffset"]
-- !private ["CSo8NSObject", "XMRefreshContentSize"]
 - !private ["CSo8NSObject", "XMRefreshLabelTextColor"]
 - !private ["CSo8NSObject", "XMRefreshLabelTextSize"]
 - ["CSo8NSObject", "XMRefreshState"]
@@ -618,7 +610,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UILabel"]
 - !private ["PSo16NSObjectProtocol", "UIViewAutoresizing"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshContentOffset"]
-- !private ["PSo16NSObjectProtocol", "XMRefreshContentSize"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshLabelTextColor"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshLabelTextSize"]
 - ["PSo16NSObjectProtocol", "XMRefreshState"]
@@ -716,7 +707,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "UILabel"]
 - !private ["PSo29UIAccessibilityIdentification", "UIViewAutoresizing"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshContentOffset"]
-- !private ["PSo29UIAccessibilityIdentification", "XMRefreshContentSize"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshLabelTextColor"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshLabelTextSize"]
 - ["PSo29UIAccessibilityIdentification", "XMRefreshState"]
@@ -788,7 +778,6 @@ depends-member:
 - !private ["PSo12UIAppearance", "UILabel"]
 - !private ["PSo12UIAppearance", "UIViewAutoresizing"]
 - !private ["PSo12UIAppearance", "XMRefreshContentOffset"]
-- !private ["PSo12UIAppearance", "XMRefreshContentSize"]
 - !private ["PSo12UIAppearance", "XMRefreshLabelTextColor"]
 - !private ["PSo12UIAppearance", "XMRefreshLabelTextSize"]
 - ["PSo12UIAppearance", "XMRefreshState"]
@@ -851,7 +840,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UILabel"]
 - !private ["PSo21UIAppearanceContainer", "UIViewAutoresizing"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshContentOffset"]
-- !private ["PSo21UIAppearanceContainer", "XMRefreshContentSize"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshLabelTextColor"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshLabelTextSize"]
 - ["PSo21UIAppearanceContainer", "XMRefreshState"]
@@ -916,7 +904,6 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "UILabel"]
 - !private ["PSo17UICoordinateSpace", "UIViewAutoresizing"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshContentOffset"]
-- !private ["PSo17UICoordinateSpace", "XMRefreshContentSize"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshLabelTextColor"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshLabelTextSize"]
 - ["PSo17UICoordinateSpace", "XMRefreshState"]
@@ -979,7 +966,6 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "UILabel"]
 - !private ["PSo13UIDynamicItem", "UIViewAutoresizing"]
 - !private ["PSo13UIDynamicItem", "XMRefreshContentOffset"]
-- !private ["PSo13UIDynamicItem", "XMRefreshContentSize"]
 - !private ["PSo13UIDynamicItem", "XMRefreshLabelTextColor"]
 - !private ["PSo13UIDynamicItem", "XMRefreshLabelTextSize"]
 - ["PSo13UIDynamicItem", "XMRefreshState"]
@@ -1063,7 +1049,6 @@ depends-member:
 - !private ["CSo11UIResponder", "UIViewAutoresizing"]
 - ["CSo11UIResponder", "Void"]
 - !private ["CSo11UIResponder", "XMRefreshContentOffset"]
-- !private ["CSo11UIResponder", "XMRefreshContentSize"]
 - !private ["CSo11UIResponder", "XMRefreshLabelTextColor"]
 - !private ["CSo11UIResponder", "XMRefreshLabelTextSize"]
 - ["CSo11UIResponder", "XMRefreshState"]
@@ -1129,7 +1114,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UILabel"]
 - !private ["PSo18UITraitEnvironment", "UIViewAutoresizing"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshContentOffset"]
-- !private ["PSo18UITraitEnvironment", "XMRefreshContentSize"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshLabelTextColor"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshLabelTextSize"]
 - ["PSo18UITraitEnvironment", "XMRefreshState"]
@@ -1200,7 +1184,6 @@ depends-member:
 - !private ["CSo6UIView", "UIViewAutoresizing"]
 - ["CSo6UIView", "Void"]
 - !private ["CSo6UIView", "XMRefreshContentOffset"]
-- !private ["CSo6UIView", "XMRefreshContentSize"]
 - !private ["CSo6UIView", "XMRefreshLabelTextColor"]
 - !private ["CSo6UIView", "XMRefreshLabelTextSize"]
 - ["CSo6UIView", "XMRefreshState"]
@@ -1278,7 +1261,6 @@ depends-member:
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "UIViewAutoresizing"]
 - ["C19XMPullToRefreshDemo13XMRefreshBase", "Void"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshContentOffset"]
-- !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshContentSize"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshLabelTextColor"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshLabelTextSize"]
 - ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshState"]
@@ -1358,7 +1340,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "UILabel"]
 - !private ["PSs12_Reflectable", "UIViewAutoresizing"]
 - !private ["PSs12_Reflectable", "XMRefreshContentOffset"]
-- !private ["PSs12_Reflectable", "XMRefreshContentSize"]
 - !private ["PSs12_Reflectable", "XMRefreshLabelTextColor"]
 - !private ["PSs12_Reflectable", "XMRefreshLabelTextSize"]
 - ["PSs12_Reflectable", "XMRefreshState"]

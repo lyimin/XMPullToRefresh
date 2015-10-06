@@ -31,6 +31,7 @@ class ViewController: UITableViewController {
     
     func getData() {
         self.count = 20
+        self.tableView.removeHeaderView()
     }
     
     func loadMore () {

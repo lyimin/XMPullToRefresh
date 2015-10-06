@@ -177,4 +177,6 @@ class XMRefreshFooterView: XMRefreshBase {
         }
         return totalCount
     }
+    
+    
 }

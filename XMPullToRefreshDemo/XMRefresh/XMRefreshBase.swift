@@ -146,7 +146,7 @@ class XMRefreshBase: UIView {
         super.willMoveToSuperview(newSuperview)
         // 移走旧的父控件
         if (self.superview != nil) {
-            self.superview?.removeObserver(self, forKeyPath: XMRefreshContentSize as String, context: nil)
+            self.superview?.removeObserver(self, forKeyPath: XMRefreshContentOffset as String, context: nil)
             
         }
         // 新的父控件 添加监听器

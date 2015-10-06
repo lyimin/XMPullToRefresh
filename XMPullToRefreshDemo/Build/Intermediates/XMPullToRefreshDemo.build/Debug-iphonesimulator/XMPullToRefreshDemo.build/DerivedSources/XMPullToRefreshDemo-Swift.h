@@ -120,6 +120,9 @@ SWIFT_CLASS("_TtC19XMPullToRefreshDemo11AppDelegate")
 /// <ul><li>结束下拉刷新</li></ul>
 - (void)headerViewStopPullToRefresh;
 
+/// 移除下拉刷新
+- (void)removeHeaderView;
+
 /// 上拉加载更多
 - (void)footerViewPullToRefresh:(void (^ __nullable)(void))callback;
 
@@ -128,6 +131,9 @@ SWIFT_CLASS("_TtC19XMPullToRefreshDemo11AppDelegate")
 
 /// 结束上拉加载更多
 - (void)footerEndRefreshing;
+
+/// 移除脚步
+- (void)removeFooterView;
 @end
 
 @class UITableView;

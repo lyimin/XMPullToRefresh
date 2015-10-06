@@ -6,47 +6,48 @@ provides-nominal:
 provides-member:
 - ["C19XMPullToRefreshDemo19XMRefreshFooterView", ""]
 provides-dynamic-lookup:
-- "footerView"
 - "willMoveToSuperview"
+- "footerView"
 - "observeValueForKeyPath"
 depends-top-level:
-- !private "CGRect"
-- "XMRefreshBase"
-- !private "UIEdgeInsets"
-- !private "NSKeyValueObservingOptions"
-- !private "XMRefreshContentOffset"
-- !private ">"
-- !private "UICollectionView"
-- "String"
-- !private "&&"
+- !private "CGRectMake"
+- !private "CGAffineTransformMakeRotation"
+- !private "-"
 - !private "CGFloat"
 - !private "print"
-- !private "XMRefreshViewHeight"
-- !private "<"
+- !private "CGPoint"
+- !private "SCREEN_WIDTH"
 - !private "XMRefreshFooterPullToRefresh"
 - !private "M_PI"
-- !private "CGPoint"
+- !private "CGRect"
+- "XMRefreshFooterView"
+- "String"
+- !private "!="
+- "Void"
+- "UnsafeMutablePointer"
+- !private "XMRefreshContentOffset"
+- !private "++"
+- !private "UICollectionView"
+- !private "=="
+- !private ">"
+- "Int"
+- "UIView"
+- "AnyObject"
+- !private "XMRefreshSlowAnimationDuration"
+- !private "CGAffineTransformIdentity"
+- !private "UIEdgeInsets"
+- !private "&&"
+- !private "NSKeyValueObservingOptions"
+- !private "XMRefreshFooterRefreshing"
+- !private "<="
 - !private "+"
 - !private "XMRefreshContentSize"
-- !private "XMRefreshFooterReleaseToRefresh"
-- "Int"
-- !private "CGAffineTransformMakeRotation"
-- "AnyObject"
-- !private "=="
-- "XMRefreshFooterView"
-- !private "-"
-- !private "XMRefreshSlowAnimationDuration"
-- "UnsafeMutablePointer"
-- !private "CGAffineTransformIdentity"
-- !private "SCREEN_WIDTH"
-- !private "<="
-- !private "StringLiteralType"
-- !private "!="
-- !private "++"
+- !private "XMRefreshViewHeight"
+- !private "<"
+- "XMRefreshBase"
 - !private "UITableView"
-- !private "CGRectMake"
-- "UIView"
-- "Void"
+- !private "StringLiteralType"
+- !private "XMRefreshFooterReleaseToRefresh"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGAffineTransformIdentity"]
@@ -61,6 +62,7 @@ depends-member:
 - !private ["PSs9AnyObject", "XMRefreshContentOffset"]
 - !private ["PSs9AnyObject", "XMRefreshContentSize"]
 - !private ["PSs9AnyObject", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs9AnyObject", "XMRefreshFooterRefreshing"]
 - !private ["PSs9AnyObject", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs9AnyObject", "XMRefreshFooterView"]
 - !private ["PSs9AnyObject", "XMRefreshSlowAnimationDuration"]
@@ -119,6 +121,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "XMRefreshContentOffset"]
 - !private ["PSs11CVarArgType", "XMRefreshContentSize"]
 - !private ["PSs11CVarArgType", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs11CVarArgType", "XMRefreshFooterRefreshing"]
 - !private ["PSs11CVarArgType", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs11CVarArgType", "XMRefreshFooterView"]
 - !private ["PSs11CVarArgType", "XMRefreshSlowAnimationDuration"]
@@ -170,6 +173,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "XMRefreshContentOffset"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshContentSize"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs23CustomStringConvertible", "XMRefreshFooterRefreshing"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshFooterView"]
 - !private ["PSs23CustomStringConvertible", "XMRefreshSlowAnimationDuration"]
@@ -223,6 +227,7 @@ depends-member:
 - !private ["PSs9Equatable", "XMRefreshContentOffset"]
 - !private ["PSs9Equatable", "XMRefreshContentSize"]
 - !private ["PSs9Equatable", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs9Equatable", "XMRefreshFooterRefreshing"]
 - !private ["PSs9Equatable", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs9Equatable", "XMRefreshFooterView"]
 - !private ["PSs9Equatable", "XMRefreshSlowAnimationDuration"]
@@ -284,6 +289,7 @@ depends-member:
 - !private ["PSs8Hashable", "XMRefreshContentOffset"]
 - !private ["PSs8Hashable", "XMRefreshContentSize"]
 - !private ["PSs8Hashable", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs8Hashable", "XMRefreshFooterRefreshing"]
 - !private ["PSs8Hashable", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs8Hashable", "XMRefreshFooterView"]
 - !private ["PSs8Hashable", "XMRefreshSlowAnimationDuration"]
@@ -340,6 +346,7 @@ depends-member:
 - !private ["PSo8NSCoding", "XMRefreshContentOffset"]
 - !private ["PSo8NSCoding", "XMRefreshContentSize"]
 - !private ["PSo8NSCoding", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo8NSCoding", "XMRefreshFooterRefreshing"]
 - !private ["PSo8NSCoding", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo8NSCoding", "XMRefreshFooterView"]
 - !private ["PSo8NSCoding", "XMRefreshSlowAnimationDuration"]
@@ -400,6 +407,7 @@ depends-member:
 - !private ["CSo8NSObject", "XMRefreshContentOffset"]
 - !private ["CSo8NSObject", "XMRefreshContentSize"]
 - !private ["CSo8NSObject", "XMRefreshFooterPullToRefresh"]
+- !private ["CSo8NSObject", "XMRefreshFooterRefreshing"]
 - !private ["CSo8NSObject", "XMRefreshFooterReleaseToRefresh"]
 - ["CSo8NSObject", "XMRefreshFooterView"]
 - !private ["CSo8NSObject", "XMRefreshSlowAnimationDuration"]
@@ -447,6 +455,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "XMRefreshContentOffset"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshContentSize"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo16NSObjectProtocol", "XMRefreshFooterRefreshing"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshFooterView"]
 - !private ["PSo16NSObjectProtocol", "XMRefreshSlowAnimationDuration"]
@@ -511,6 +520,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshContentOffset"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshContentSize"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo29UIAccessibilityIdentification", "XMRefreshFooterRefreshing"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshFooterView"]
 - !private ["PSo29UIAccessibilityIdentification", "XMRefreshSlowAnimationDuration"]
@@ -558,6 +568,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "XMRefreshContentOffset"]
 - !private ["PSo12UIAppearance", "XMRefreshContentSize"]
 - !private ["PSo12UIAppearance", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo12UIAppearance", "XMRefreshFooterRefreshing"]
 - !private ["PSo12UIAppearance", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo12UIAppearance", "XMRefreshFooterView"]
 - !private ["PSo12UIAppearance", "XMRefreshSlowAnimationDuration"]
@@ -605,6 +616,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "XMRefreshContentOffset"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshContentSize"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo21UIAppearanceContainer", "XMRefreshFooterRefreshing"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshFooterView"]
 - !private ["PSo21UIAppearanceContainer", "XMRefreshSlowAnimationDuration"]
@@ -654,6 +666,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "XMRefreshContentOffset"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshContentSize"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo17UICoordinateSpace", "XMRefreshFooterRefreshing"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshFooterView"]
 - !private ["PSo17UICoordinateSpace", "XMRefreshSlowAnimationDuration"]
@@ -701,6 +714,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "XMRefreshContentOffset"]
 - !private ["PSo13UIDynamicItem", "XMRefreshContentSize"]
 - !private ["PSo13UIDynamicItem", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo13UIDynamicItem", "XMRefreshFooterRefreshing"]
 - !private ["PSo13UIDynamicItem", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo13UIDynamicItem", "XMRefreshFooterView"]
 - !private ["PSo13UIDynamicItem", "XMRefreshSlowAnimationDuration"]
@@ -762,6 +776,7 @@ depends-member:
 - !private ["CSo11UIResponder", "XMRefreshContentOffset"]
 - !private ["CSo11UIResponder", "XMRefreshContentSize"]
 - !private ["CSo11UIResponder", "XMRefreshFooterPullToRefresh"]
+- !private ["CSo11UIResponder", "XMRefreshFooterRefreshing"]
 - !private ["CSo11UIResponder", "XMRefreshFooterReleaseToRefresh"]
 - ["CSo11UIResponder", "XMRefreshFooterView"]
 - !private ["CSo11UIResponder", "XMRefreshSlowAnimationDuration"]
@@ -820,6 +835,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "XMRefreshContentOffset"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshContentSize"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshFooterPullToRefresh"]
+- !private ["PSo18UITraitEnvironment", "XMRefreshFooterRefreshing"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshFooterView"]
 - !private ["PSo18UITraitEnvironment", "XMRefreshSlowAnimationDuration"]
@@ -877,6 +893,7 @@ depends-member:
 - !private ["CSo6UIView", "XMRefreshContentOffset"]
 - !private ["CSo6UIView", "XMRefreshContentSize"]
 - !private ["CSo6UIView", "XMRefreshFooterPullToRefresh"]
+- !private ["CSo6UIView", "XMRefreshFooterRefreshing"]
 - !private ["CSo6UIView", "XMRefreshFooterReleaseToRefresh"]
 - ["CSo6UIView", "XMRefreshFooterView"]
 - !private ["CSo6UIView", "XMRefreshSlowAnimationDuration"]
@@ -941,6 +958,7 @@ depends-member:
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshContentOffset"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshContentSize"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshFooterPullToRefresh"]
+- !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshFooterRefreshing"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshFooterReleaseToRefresh"]
 - ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshFooterView"]
 - !private ["C19XMPullToRefreshDemo13XMRefreshBase", "XMRefreshSlowAnimationDuration"]
@@ -986,6 +1004,7 @@ depends-member:
 - !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshContentOffset"]
 - !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshContentSize"]
 - !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshFooterPullToRefresh"]
+- !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshFooterRefreshing"]
 - !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshFooterReleaseToRefresh"]
 - ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshFooterView"]
 - !private ["C19XMPullToRefreshDemo19XMRefreshFooterView", "XMRefreshSlowAnimationDuration"]
@@ -1038,6 +1057,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "XMRefreshContentOffset"]
 - !private ["PSs12_Reflectable", "XMRefreshContentSize"]
 - !private ["PSs12_Reflectable", "XMRefreshFooterPullToRefresh"]
+- !private ["PSs12_Reflectable", "XMRefreshFooterRefreshing"]
 - !private ["PSs12_Reflectable", "XMRefreshFooterReleaseToRefresh"]
 - !private ["PSs12_Reflectable", "XMRefreshFooterView"]
 - !private ["PSs12_Reflectable", "XMRefreshSlowAnimationDuration"]
