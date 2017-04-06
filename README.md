@@ -7,54 +7,54 @@
 
 ## 用法
 ### cocoaPods管理
-<pre><code>
+```swift
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
 pod 'XMPullToRefresh'
-</code></pre>
+```
 
 ### 一.下拉刷新
-<pre><code>
+```swift
 self.tableView.headerViewPullToRefresh ({ () -> Void in
   // 下拉刷新时的操作
 })
-</code></pre>
+```
 
 #### 1.进入下拉刷新状态
-<pre><code>
+```swift
 self.tableView.headerViewBeginRefreshing()
-</code></pre>
+```
 
 #### 2.结束下拉刷新状态
-<pre><code>
+```swift
 self.tableView.headerViewStopPullToRefresh()
-</code></pre>
+```
 
 #### 3.移除下拉刷新控件
-<pre><code>
+```swift
 self.tableView.removeHeaderView()
-</code></pre>
+```
 
 ### 二.上拉加载更多
-<pre><code>
+```swift
 self.tableView.footerViewPullToRefresh ({ () -> Void in
   // 上拉加载更多时的操作
 })
-</code></pre>
+```
 
 #### 1.进入上拉加载更多状态
-<pre><code>
+```swift
 self.tableView.footerBeginRefreshing()
-</code></pre>
+```
 
 #### 2.结束上拉加载更多状态
-<pre><code>
+```swift
 self.tableView.footerEndRefreshing()
-</code></pre>
+```
 
 #### 3.移除上拉加载更多控件
-<pre><code>
+```swift
 self.tableView.removeFooterView()
-</code></pre>
+```
